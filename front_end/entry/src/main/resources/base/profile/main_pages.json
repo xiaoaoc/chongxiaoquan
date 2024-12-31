@@ -1,10 +1,13 @@
 {
   "src": [
-
     "pages/Index",
     "pages/Map",
     "pages/Nearby",
-    "pages/Social"
+    "pages/Social",
+    "pages/Pics",
+    "pages/Article",
+    "pages/Note",
+    "pages/Ai",
+    "pages/User"
   ]
 }
-

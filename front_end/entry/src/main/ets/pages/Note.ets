@@ -2,15 +2,15 @@ import { router } from '@kit.ArkUI'
 
 @Entry
 @Component
-struct Nearby {
+struct Note {
 
   build() {
     RelativeContainer() {
-      Image($rawfile('social.png'))
+      Image($rawfile('note.png'))
         .objectFit(ImageFit.Fill)
     }
     .onClick(()=>{
-      router.pushUrl({url:'pages/Pics'})
+      router.pushUrl({url:'pages/Ai'})
     }
     )
     .height('100%')
