@@ -1,23 +1,18 @@
-
 import { router } from '@kit.ArkUI'
-
 
 @Entry
 @Component
-struct Index {
+struct Pics {
 
   build() {
     RelativeContainer() {
-      Image($rawfile('1.png'))
+      Image($rawfile('pics.png'))
         .objectFit(ImageFit.Fill)
     }
-
     .onClick(()=>{
-      router.pushUrl({url:'pages/Map'})
+      router.pushUrl({url:'pages/Article'})
     }
-
     )
-
     .height('100%')
     .width('100%')
   }

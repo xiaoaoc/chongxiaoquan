@@ -9,10 +9,10 @@ struct Nearby {
       Image($rawfile('social.png'))
         .objectFit(ImageFit.Fill)
     }
-    // .onClick(()=>{
-    //   router.pushUrl({url:'pages/map'})
-    // }
-    // )
+    .onClick(()=>{
+      router.pushUrl({url:'pages/Pics'})
+    }
+    )
     .height('100%')
     .width('100%')
   }
