@@ -1,8 +1,10 @@
 {
   "src": [
+
     "pages/Index",
     "pages/Map",
     "pages/Nearby",
     "pages/Social"
   ]
 }
+
