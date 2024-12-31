@@ -2,17 +2,16 @@ import { router } from '@kit.ArkUI'
 
 @Entry
 @Component
-struct Index {
+struct Map {
 
   build() {
     RelativeContainer() {
-      Image($rawfile('1.png'))
+      Image($rawfile('map.png'))
         .objectFit(ImageFit.Fill)
     }
     .onClick(()=>{
-      router.pushUrl({url:'pages/Map'})
+      router.pushUrl({url:'pages/Nearby'})
     }
-
     )
     .height('100%')
     .width('100%')
